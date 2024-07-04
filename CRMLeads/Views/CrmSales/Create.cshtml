@@ -1,0 +1,70 @@
+﻿@model CRMLeads.Models.CrmSales
+
+@{
+    ViewData["Title"] = "Create CRM Sale";
+}
+
+<h1 class="text-center">Create CRM Sale</h1>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">CRM Sale Details</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                        <div class="form-group">
+                            <label asp-for="SaleOrder" class="control-label">Sales Order ID</label>
+                            <input asp-for="SaleOrder" class="form-control" placeholder="Enter Sale Order ID" />
+                            <span asp-validation-for="SaleOrder" class="text-danger"></span>
+                        </div><br />
+                        <div class="form-group">
+                            <label asp-for="SaleItem" class="control-label">Sales Order Item</label>
+                            <input asp-for="SaleItem" class="form-control" placeholder="Enter Sale Item" />
+                            <span asp-validation-for="SaleItem" class="text-danger"></span>
+                        </div><br />
+                        <div class="form-group">
+                            <label asp-for="WorkOrder" class="control-label">Work Order ID</label>
+                            <input asp-for="WorkOrder" class="form-control" placeholder="Enter Sale Order ID" />
+                            <span asp-validation-for="WorkOrder" class="text-danger"></span>
+                        </div><br />
+                        <div class="form-group">
+                            <label asp-for="Product" class="control-label">Product ID</label>
+                            <input asp-for="Product" class="form-control" placeholder="Enter Product ID" />
+                            <span asp-validation-for="Product" class="text-danger"></span>
+                        </div><br />
+                        <div class="form-group">
+                            <label asp-for="ProductDesc" class="control-label">Product Description</label>
+                            <input asp-for="ProductDesc" class="form-control" placeholder="Enter Product Description" />
+                            <span asp-validation-for="ProductDesc" class="text-danger"></span>
+                        </div><br />
+                        <div class="form-group">
+                            <label asp-for="Qty" class="control-label">Order Quantity</label>
+                            <input asp-for="Qty" class="form-control" placeholder="Enter Quantity" />
+                            <span asp-validation-for="Qty" class="text-danger"></span>
+                        </div><br />
+                        <div class="form-group">
+                            <label asp-for="Status" class="control-label">Order Status</label>
+                            <input asp-for="Status" class="form-control" placeholder="Enter Status" />
+                            <span asp-validation-for="Status" class="text-danger"></span>
+                        </div><br /><br />
+                        <div class="form-group text-center">
+                            <input type="submit" value="Create" class="btn btn-success" />
+                            <a asp-action="Index" class="btn btn-secondary ml-2">Back to List</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

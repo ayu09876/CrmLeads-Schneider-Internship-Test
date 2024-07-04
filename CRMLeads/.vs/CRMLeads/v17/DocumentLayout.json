@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Downloads\\Magang_Aby\\CRMLeads\\CRMLeads\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE04E57-E9DA-4966-B916-52DD0CB551B6}|CRMLeads.csproj|c:\\users\\asus\\downloads\\magang_aby\\crmleads\\crmleads\\views\\crmsales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCE04E57-E9DA-4966-B916-52DD0CB551B6}|CRMLeads.csproj|solutionrelative:views\\crmsales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Magang_Aby\\CRMLeads\\CRMLeads\\Views\\CrmSales\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CrmSales\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Magang_Aby\\CRMLeads\\CRMLeads\\Views\\CrmSales\\Index.cshtml",
+              "RelativeToolTip": "Views\\CrmSales\\Index.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAE8AAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T11:10:00.132Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
